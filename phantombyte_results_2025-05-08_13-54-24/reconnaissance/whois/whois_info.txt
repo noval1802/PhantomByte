@@ -1,0 +1,17 @@
+Domain Name: PONOROGO.GO.ID
+Registry Domain ID: PANDI-DO120571
+Registrar WHOIS Server: 
+Registrar URL: domain.go.id
+Updated Date: 2025-03-17T00:33:46Z
+Creation Date: 2000-05-10T13:29:35Z
+Registry Expiry Date: 2026-01-31T23:59:59Z
+Registrar: Kementerian Komunikasi dan Informatika
+Registrar IANA ID: 1
+Registrar Abuse Contact Email: helpdeskdomain@mail.kominfo.go.id
+Registrar Abuse Contact Phone: 
+Domain Status: ok
+Name Server: ISAAC.NS.CLOUDFLARE.COM
+Name Server: LADY.NS.CLOUDFLARE.COM
+DNSSEC: unsigned
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2025-05-10T18:25:02Z <<<

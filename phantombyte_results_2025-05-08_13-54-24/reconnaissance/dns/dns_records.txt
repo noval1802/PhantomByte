@@ -1,0 +1,4 @@
+;; communications error to 118.98.115.77#53: timed out
+;; communications error to 118.98.115.77#53: timed out
+;; communications error to 118.98.115.77#53: timed out
+;; communications error to 118.98.115.70#53: timed out

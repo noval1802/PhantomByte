@@ -1,0 +1,109 @@
+# Nmap 7.95 scan initiated Sun May 11 01:29:16 2025 as: /usr/lib/nmap/nmap --privileged -T4 -p- -A -oN phantombyte_results_2025-05-08_13-54-24/enumeration/ports/full_scan.txt ponorogo.go.id
+Nmap scan report for ponorogo.go.id (172.67.70.18)
+Host is up (0.055s latency).
+Other addresses for ponorogo.go.id (not scanned): 104.26.9.170 104.26.8.170
+Not shown: 65522 filtered tcp ports (no-response)
+PORT     STATE SERVICE                VERSION
+80/tcp   open  http                   Cloudflare http proxy
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http               Cloudflare http proxy
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+| ssl-cert: Subject: commonName=ponorogo.go.id
+| Subject Alternative Name: DNS:ponorogo.go.id, DNS:*.ponorogo.go.id
+| Not valid before: 2025-03-19T15:08:53
+|_Not valid after:  2025-06-17T16:08:48
+|_http-server-header: cloudflare
+| http-robots.txt: 1 disallowed entry 
+|_/wp-admin/
+|_http-generator: WordPress 6.7.2
+2052/tcp open  http                   Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+2053/tcp open  ssl/http               nginx
+|_http-server-header: cloudflare
+| ssl-cert: Subject: commonName=ponorogo.go.id
+| Subject Alternative Name: DNS:ponorogo.go.id, DNS:*.ponorogo.go.id
+| Not valid before: 2025-03-19T15:08:53
+|_Not valid after:  2025-06-17T16:08:48
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+2082/tcp open  http                   Cloudflare http proxy
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+|_http-server-header: cloudflare
+2083/tcp open  ssl/hadoop-tasktracker Apache Hadoop
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+| hadoop-datanode-info: 
+|_  Logs: 3
+| hadoop-tasktracker-info: 
+|_  Logs: 3
+| ssl-cert: Subject: commonName=ponorogo.go.id
+| Subject Alternative Name: DNS:ponorogo.go.id, DNS:*.ponorogo.go.id
+| Not valid before: 2025-03-19T15:08:53
+|_Not valid after:  2025-06-17T16:08:48
+|_http-trane-info: Problem with XML parsing of /evox/about
+2086/tcp open  http                   Cloudflare http proxy
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+|_http-server-header: cloudflare
+2087/tcp open  ssl/hadoop-datanode    Apache Hadoop
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+|_http-trane-info: Problem with XML parsing of /evox/about
+| hadoop-tasktracker-info: 
+|_  Logs: 3
+| hadoop-datanode-info: 
+|_  Logs: 3
+| ssl-cert: Subject: commonName=ponorogo.go.id
+| Subject Alternative Name: DNS:ponorogo.go.id, DNS:*.ponorogo.go.id
+| Not valid before: 2025-03-19T15:08:53
+|_Not valid after:  2025-06-17T16:08:48
+2095/tcp open  http                   Cloudflare http proxy
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+|_http-server-header: cloudflare
+2096/tcp open  ssl/hadoop-datanode    Apache Hadoop
+| ssl-cert: Subject: commonName=ponorogo.go.id
+| Subject Alternative Name: DNS:ponorogo.go.id, DNS:*.ponorogo.go.id
+| Not valid before: 2025-03-19T15:08:53
+|_Not valid after:  2025-06-17T16:08:48
+| hadoop-datanode-info: 
+|_  Logs: 3
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-trane-info: Problem with XML parsing of /evox/about
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+| hadoop-tasktracker-info: 
+|_  Logs: 3
+8080/tcp open  http                   Cloudflare http proxy
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+|_http-server-header: cloudflare
+8443/tcp open  ssl/http               Cloudflare http proxy
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+| ssl-cert: Subject: commonName=ponorogo.go.id
+| Subject Alternative Name: DNS:ponorogo.go.id, DNS:*.ponorogo.go.id
+| Not valid before: 2025-03-19T15:08:53
+|_Not valid after:  2025-06-17T16:08:48
+|_http-server-header: cloudflare
+8880/tcp open  http                   Cloudflare http proxy
+|_http-title: Site doesn't have a title (text/plain; charset=UTF-8).
+|_http-server-header: cloudflare
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Apple iOS 14.0 - 15.6 or tvOS 14.3 - 16.1 (Darwin 20.0.0 - 22.1.0) (89%), Apple iOS 15.7 (Darwin 21.7.0) (89%), Apple macOS 11 (Big Sur) - 13 (Ventura) or iOS 16 (Darwin 20.6.0 - 22.4.0) (89%), Apple macOS 13 (Ventura) (Darwin 22.0.0) (89%), FreeBSD 11.0-RELEASE (89%), FreeBSD 11.0-STABLE (89%), FreeBSD 11.1-STABLE (89%), FreeBSD 11.3-RELEASE (89%), FreeBSD 12.0-RELEASE - 12.1-RELEASE (89%), FreeBSD 12.2-RELEASE - 13.0-RELEASE (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 9 hops
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT      ADDRESS
+1   4.18 ms  gpon.net (192.168.1.1)
+2   ...
+3   8.84 ms  180.252.0.157
+4   21.25 ms 180.240.190.61
+5   20.74 ms 180.240.190.61
+6   56.75 ms 180.240.190.149
+7   55.09 ms cloudflare2-lacp-100g.hkix.net (123.255.91.174)
+8   62.14 ms 103.22.203.29
+9   57.17 ms 172.67.70.18
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun May 11 01:32:05 2025 -- 1 IP address (1 host up) scanned in 169.89 seconds

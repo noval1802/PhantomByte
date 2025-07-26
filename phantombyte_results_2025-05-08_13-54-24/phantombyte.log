@@ -1,0 +1,12 @@
+[0;32m[✓] 18:25:02 SUCCESS All required tools are available[0m
+[0;36m[►] 18:25:02 RUN     Starting full scan for ponorogo.go.id[0m
+[0;36m[►] 18:25:02 RUN     Starting Reconnaissance Phase[0m
+[0;35m[🔍] 18:25:02 SCAN    Performing WHOIS lookup...[0m
+[0;35m[🔍] 18:25:02 SCAN    Gathering DNS information...[0m
+[0;35m[🔍] 18:25:43 SCAN    Gathering subdomains...[0m
+[1;33m[⚠] 18:29:13 WARN    port 433 not open. Skipping SSL/TLS check.[0m
+[0;35m[🔍] 18:29:13 SCAN    Detecting WAF...[0m
+[0;32m[✓] 18:29:15 SUCCESS Reconnaissance phase completed[0m
+[0;36m[►] 18:29:15 RUN     Starting Enumeration Phase[0m
+[0;35m[🔍] 18:29:15 SCAN    Scanning ports...[0m
+[0;35m[🔍] 18:32:05 SCAN    Enumerating directories...[0m
